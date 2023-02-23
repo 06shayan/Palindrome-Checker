@@ -1,0 +1,63 @@
+*{ /*To remove extra space*/
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #987554;
+    width: 100%; /*to bring everything in center we use the following values */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+input {
+    width: 300px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 0px 10px;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+button {
+    width: 500px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    background-color: #664229;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #B99976;
+    color: #fff;
+}
+
+#result {
+    background-color: white;
+    width: 300px;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    display: none;
+}
+
